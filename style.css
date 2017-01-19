@@ -1,0 +1,238 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+#nav {
+	width: 1270px;
+	height: 600px;
+	background: url(mountain-road.jpg); /*silver*/
+	background-image: right;
+}
+
+
+#nav_wrapper {
+	height: 100px;
+	width: 629px;
+	background: #4197c1; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	opacity: 0.9; /* water color to look like background color*/
+	filter:alpha (opacity=90); /* IE 8 earlier */
+}
+
+
+
+#nav_wrapper ul li {
+	list-style: none; /*bulette point to go off*/
+	display: inline;
+	font-weight: bold;
+	padding: 10px;
+	margin-top: 100px;
+	border-radius: 5px;
+}
+
+#nav_wrapper a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+#nav_wrapper ul li:hover {
+	background: red;
+	transition:all 0.45s;
+	opacity: 0.7;
+	filter:alpha (opacity=90); /* IE 8 earlier */
+}
+
+
+
+
+/*welcome to text begins css*/
+
+.welcome_to {
+	background-color: #4197c1;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding-top: -5px 6px 5px 4px;
+	height: 50px;
+	width: 320px;
+	font-size: 2.9em; /*to make the text big or small*/
+	font-weight: 300px;
+	margin: -540px 600px 900px 20px;
+	opacity: 0.5;
+	filter:alpha (opacity=90);
+}
+
+p {
+	font-family: arial, sans-serif;
+	text-align: center;
+}
+
+/*welcome letter css*/
+h3 {
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+	border: 2px solid red;
+	border-radius: 5px;
+}
+
+/*About me css*/
+
+
+blockquote {
+	display: block;
+	font-family: cursive;
+	float: right;
+	font-size: 1.5em;
+}
+blockquote img {
+	margin-left: -10px;
+	margin: 300px;
+}
+
+
+/*news and info css*/
+.news {
+	float: left;
+	font-size: 1.9em;
+	text-decoration: underline;
+}
+.article {
+	background-color: #f2f2f2;
+	height: 250px;
+	padding: 50px;
+	padding-left: 20px;
+	margin-top: -20px;
+	text-align: justify;
+	-moz-text-align-last: left; /* Code for Firefox */
+    text-align-last: left;	
+}
+
+/*blockqutote underline bible verse css*/
+.bible_verse {
+ 
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(silver, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(silver, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(silver, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(silver, yellow); /* Standard syntax (must be last) */
+
+	border: 2px solid silver;
+}
+
+u {
+	font-size: 2.5em;
+	color: #008CBA;
+	font-family: sans-serif;
+}
+u:hover {
+	color: blue;
+}
+
+
+						/*three pic css with descripation*/
+
+ div.polaroid {
+  width: 370px;
+  border: 0px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  display: inline-block;
+  margin: 60px 10px 5px 40px;
+  margin-left: 20px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 0px;
+  padding-top: 2px;
+}
+
+/*Social Media & contacts*/
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 304px;
+    background-color: #f2f2f2;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.flex-item {
+    background-color: white;
+    width: 100%;
+    height: 230px;
+    margin: 10px;
+    text-align: center;
+    list-style: none;
+    padding-top: 50px;
+    padding-right: 10px;
+}
+
+/****make button tele for address****/
+.flex-itemButton {
+	padding: 15px 32px;
+	background: white;
+	border: 2px solid #008CBA;
+	border-radius: 10px;
+	color: black;
+	font-size: 0.9em;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.flex-itemButton:hover {
+	background: #09F;
+}
+/*fix the social media css*/
+.flex-item ul li {
+	display: inline-block;
+	flex: center;
+}
+
+/* sign up email button*/
+.signupEmail {
+	background-color: #008CBA; /*blue*/
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+
+.signupEmail:hover {
+	background: #09F;
+}
+
+
+/********************* footer     **************/
+
+footer {
+	background-color:#333333;
+	margin-top: -10px;
+	width: 100%;
+	height: 300px;
+	color: silver;
+}
+
+.copyRight {
+	padding-top: 70px;
+	
+}
+span {
+	padding-left: 40px;
+	color: white;
+}
+span a {
+	color: white;
+}
