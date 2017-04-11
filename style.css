@@ -74,6 +74,7 @@ h3 {
 	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 	border: 2px solid red;
 	border-radius: 5px;
+	width: 0;
 }
 
 /*About me css*/
